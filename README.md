@@ -26,7 +26,7 @@ zts := golangzerotierserviceapi.NewClient("https://api.zerotier.com/api/v1", "AA
 Join a network:
 
 ```golang
-resp, err := zts.JoinNetwork("856127940c6a45a4")
+resp, err := zts.JoinNetwork("BBBBBBBBBBBBBBBB")
 
 if err != nil {
 	log.Panic(err)
@@ -37,7 +37,7 @@ fmt.Println(resp.Result)
 Leave a network:
 
 ```golang
-resp, err := zts.LeaveNetwork("856127940c6a45a4")
+resp, err := zts.LeaveNetwork("BBBBBBBBBBBBBBBB")
 
 if err != nil {
 	log.Panic(err)
