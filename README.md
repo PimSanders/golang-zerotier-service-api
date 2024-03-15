@@ -1,4 +1,4 @@
-# golang-zerotier-service-api
+# Golang-zerotier-service-api
 A Golang wrapper for the Zerotier Service API 
 
 This package was created for usage in the [GameKube](https://github.com/BumbleB-NL/gamekube) project. 
